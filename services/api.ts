@@ -1,7 +1,7 @@
 import axios, { AxiosError } from 'axios';
 import { Role, Status, Task, User } from '../types';
 
-const API_BASE_URL = 'http://localhost:8000/api';
+const API_BASE_URL = 'http://157.245.237.73:8085/api';
 
 export type LoginCredentials = {
   email:    string;
